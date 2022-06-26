@@ -8,18 +8,22 @@
     * {
         font-family: 'Lato', sans-serif;
         font-family: 'Montserrat', sans-serif;
-        /* background-color: var(--light-gray); */
     }
 
     body {
         background-color: var(--light-gray);
     }
 
+    .main-heading{
+        text-align: center;
+        color: var(--dark-blue);
+    }
+
     .attribution {
         font-size: 11px;
         text-align: center;
         position: relative;
-        top: 220px;
+        top: 150px;
     }
 
     .attribution a {
@@ -32,7 +36,7 @@
         border-radius: 1rem;
         text-align: center;
         position: relative;
-        top: 100px;
+        top: 50px;
         margin: auto;
     }
 
