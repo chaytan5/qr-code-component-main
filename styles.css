@@ -5,39 +5,24 @@
         --dark-blue: hsl(218, 44%, 22%);
     }
 
-    * {
+    body {
         font-family: 'Lato', sans-serif;
         font-family: 'Montserrat', sans-serif;
-    }
-
-    body {
         background-color: var(--light-gray);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
-    .main-heading{
-        text-align: center;
+    .main-heading {
         color: var(--dark-blue);
-    }
-
-    .attribution {
-        font-size: 11px;
-        text-align: center;
-        position: relative;
-        top: 80px;
-    }
-
-    .attribution a {
-        color: hsl(228, 45%, 44%);
     }
 
     .container-main {
         background-color: white;
-        width: 370px;
+        max-width: 370px;
         border-radius: 1rem;
         text-align: center;
-        position: relative;
-        top: 50px;
-        margin: auto;
     }
 
     .qr-img img {
@@ -47,8 +32,7 @@
     }
 
     .hero-text {
-        margin: 1rem;
-        padding-bottom: 1rem;
+        margin: 1.5rem;
     }
 
     .hero-text h1 {
@@ -59,4 +43,13 @@
     .hero-text p {
         font-size: 1rem;
         color: var(--grayish-blue);
+    }
+
+    .attribution {
+        font-size: 12px;
+        padding: 1rem;
+    }
+
+    .attribution a {
+        color: var(--dark-blue)
     }
