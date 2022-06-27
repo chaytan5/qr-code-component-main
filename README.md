@@ -2,7 +2,7 @@
 
 ### Screenshot
 
-![Project screenshot for the QR code component coding challenge](./images/project-screenshot.png)
+![Project screenshot for the QR code component coding challenge](./images/project-screenshot-new.png)
 
 ### Links
 
